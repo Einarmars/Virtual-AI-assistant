@@ -12,7 +12,7 @@ recognizer = sr.Recognizer()
 say("System ready master")
 
 def send_to_chatgpt(prompt):
-    api_key = "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"
+    api_key = "YOUR OWN API KEY"
     response = requests.post(
         "https://api.openai.com/v1/completions",
         headers={"Authorization": f"Bearer {api_key}"},
